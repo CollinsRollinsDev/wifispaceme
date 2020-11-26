@@ -1,0 +1,290 @@
+/*CSS reset across all browsers*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+body {
+  background-color: #ececec;
+  background-image: url("https://i.imgur.com/BHUrL7d.jpg");
+}
+h1 {
+  text-align:center;
+  font-weight:900;
+  font-size:28px;
+  margin-top:2%;
+  color: white;
+  font-family: serif;
+  text-shadow: 2px 2px 5px black ;
+  
+}
+#tip {
+   text-align:center;
+   font-size:15px;
+   font-weight: 500;
+   margin-top:20px;
+   color: white;
+   font-family: Arial;
+   text-shadow:2px 2px 5px black ;
+   text-shadow:-2px -2px 5px black;
+}
+#formid {
+   margin-top:10%;
+   text-align:center;
+   
+}
+.formdiv {
+   border-style: solid;
+   border-color:black;
+   border-radius :10px;
+   width:80%;
+   border-width: 2px;
+   padding:0 0 20px 0;
+   background-color: white;
+   margin-left:10%;
+}
+#username {
+   border-style: solid;
+   width: 70%;
+   border-color: transparent transparent black transparent ;
+   background-color: transparent;
+   text-align:center;
+   color:blue;
+   outline:none;
+   margin-top: 30px;
+   padding:3px;
+   font-weight:700;
+}
+#password {
+   border-style: solid;
+   width: 70%;
+   border-color: transparent transparent black transparent ;
+   background-color: transparent;
+   text-align:center;
+   color:blue;
+   outline:none;
+   margin-top : 30px;
+   padding:3px;
+   font-weight: 700;
+}
+#signIn {
+   width: 50%;
+   height:35px;
+   text-align:center;
+   color:white;
+   background-color:blue;
+   border-radius:3px;
+   border-style: solid;
+   border-color: transparent;
+   margin-top : 20px;
+   outline:none;
+}
+#signIn:focus {
+   background-color:green;
+   font-weight: 700;
+}
+#services {
+   text-align: center;
+   font-size:14px;
+   font-family: Arial;
+   margin-top: 20px;
+   color: white;
+   font-weight:700;
+   text-shadow:2px 2px 5px black;
+}
+#services a {
+   color:yellow;
+   text-decoration: none;
+}
+
+#offers {
+   margin-top: 20px;
+  
+}
+#offers .box {
+   text-align: center;
+   margin-top: 30px;
+   padding: 5px;
+   border-color: black;
+   border-style: solid;
+   border-width: 2px;
+   width: 50%;
+   margin-left: 23%;
+   background-color: white;
+   font-size:16px;
+   font-family: serif;
+   line-height: 20px;
+   font-weight: 700;
+   box-shadow:3px 3px 5px black;
+   box-shadow:-3px -3px 5px black;
+}
+.unlimited {
+   color:white;
+   width:80%;
+   border-radius:10px;
+   margin-left:10%;
+   font-weight:900;
+   animation-name:play;
+  animation-duration:1.2s;
+  animation-delay: -1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes play {
+0%{background-color:white;color:black;} 
+  40% {background-color:blue;}
+  70% {background-color:green;color:white} 
+  90% {background-color:green;color:white} 
+  100% {background-color:#076a00;color:white} 
+} 
+#offers a {
+   text-decoration: none;
+   color:black;
+   outline:none;
+}
+#footer {
+   margin-top: 20px;
+   background-color: transparent;
+   color:yellow;
+   width:100%;
+   text-shadow:2px 2px 5px black ;
+}
+#footer p {
+   color:white;
+}
+#footer a {
+   text-decoration:none;
+   color:inherit;
+}
+#footer .payment {
+   text-align:center;
+   font-size:14px;
+   line-height:17px;
+   margin-left:2px;
+   width:45%;
+   display:inline-block;
+   
+}
+.contact {
+   margin-top:-81px;
+   font-size:14px;
+   line-height:17px;
+   display:block;
+   margin-left:50%;
+   width:50%;
+   text-align:center ;
+  
+}
+.contact p {
+   text-align:center ;
+   font-size:13px;
+}
+.about {
+   display:block;
+   margin-top:10px;
+}
+.about h3 {
+   text-align:center;
+   font-size:14px;
+   
+}
+.about .locate {
+   text-align:center;
+   width:48%;
+   font-size:14px;
+   margin-top:-50px;
+   margin-left:53%;
+   line-height:17px;
+}
+.about .abt {
+   text-align:center;
+   width:47%;
+   font-size:14px;
+   margin-top:5px;
+   line-height:17px;
+   margin-left:1%;
+}
+.test {
+   display:flex;
+   flex-direction:column;
+}
+.follow {
+   margin-top:30px;
+   font-size:14px;
+   text-align: center;
+}
+.fa-facebook {
+   font-size:20px;
+   float:left;
+   margin-left:25%;
+   color:white ;
+}
+.fa-twitter {
+   font-size:20px;
+   float:left;
+   margin-left:15%;
+   color:white ;
+}
+.fa-google-plus-g {
+   font-size:20px;
+   float:left;
+   margin-left:15%;
+   color:white;
+}
+.credit {
+   font-size:12.5px;
+   text-align:center;
+   margin-top:50px;
+  
+}
+
+/*Desktop Responsive Site Begins*/
+
+@media screen and (min-width:768px ) {
+body {
+  background-size:cover;
+}
+h1 {
+  font-size:32px;
+}
+#tip {
+   font-size:11px;
+}
+#services {
+   font-size:11px;
+}
+#offers .box {
+   width: 28%;
+   float:left;
+   margin-left:3% ;
+}
+#footer {
+   display:block;
+   margin-top: 500px;
+}
+.payment {
+   margin-left:-10%;
+}
+.contact {
+   margin-top :-50px;
+}
+.about {
+   margin-top:50px;
+   font-size:inherit;
+}
+
+.about .locate {
+   margin-top:-15px;
+}
+
+.fa-facebook {
+   margin-left:15%;
+}
+.fa-twitter {
+   margin-left:30%;
+}
+.fa-google-plus-g {
+   margin-left :30%;
+}
+.credit {
+   margin-top: 150px;
+}
+
+}
